@@ -1,0 +1,369 @@
+.loop__section1{
+    height: 100vh;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-image: url('../../images/desktop/image-hero.jpg');
+    background-repeat: no-repeat;
+}
+
+.loop__header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.loop__subheader{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    a{
+        color: $White;
+        cursor: pointer;
+        &:hover{
+            border-bottom: solid 1px white;
+            border-bottom-width: 1em;
+        }
+    }
+}
+
+.loop__logoLink{
+    display: none;
+}
+
+// SECTION 1
+
+.loop_section1-content{
+    width: max-content;
+    margin-top: 100px;
+    border: solid 1px $White;
+    padding: 40px;
+}
+
+.loop_section1-contentText{
+    color: $White;
+    font-size: 65px;
+    letter-spacing: 5px;
+}
+
+// SECTION 2
+
+.loop__section2{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.loop__section2-content{
+    max-width: 731px;
+    max-height: 500px;
+    padding: 80px;
+    z-index: 5;
+    position: absolute;
+    top: 950px;
+    left: 670px;
+    background-color: $White;
+
+    h2{
+        font-size: 35px;
+        color: $Black;
+        margin-bottom: 30px;
+    }
+}
+
+.loop__section2-contentText{
+    color: $VeryDarkGray;
+}
+
+// SECTION 3
+
+.loop__section3{
+    margin-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 100px;
+}
+
+.loop__section3-header{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5px 20px 5px;
+}
+
+.loop__section3-link{
+    cursor: pointer;
+    padding: 10px 25px 10px 25px;
+    border: solid 1px $Black;
+    color: $Black;
+    
+    &:hover{
+        background-color: $Black;
+        color: $White;
+    }
+}
+
+.loop__section3-gridContainer{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px 30px;
+    position: relative;
+}
+
+.loop__section3-gridDiv1{
+    width: 256px;
+    height: 450px;
+    background-image: url('../../images/desktop/image-deep-earth.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $Black;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: inset 0px -50px 100px black;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.5;
+        p{
+            opacity: 1;
+            color: yellow;
+        }
+    }
+}
+
+.loop__section3-gridDiv2{
+    width: 256px;
+    height: 450px;
+    background-image: url('../../images/desktop/image-night-arcade.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $Black;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: inset 0px -50px 100px black;   
+    cursor: pointer;
+    &:hover{
+        opacity: 0.5;
+        p{
+            opacity: 1;
+            color: black;
+        }
+    }
+}
+
+.loop__section3-gridDiv3{
+    width: 256px;
+    height: 450px;
+    background-image: url('../../images/desktop/image-soccer-team.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $Black;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: inset 0px -50px 100px black;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.5;
+        p{
+            opacity: 1;
+            color: black;
+        }
+    } 
+}
+
+.loop__section3-gridDiv4{
+    width: 256px;
+    height: 450px;
+    background-image: url('../../images/desktop/image-grid.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $Black;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: inset 0px -50px 100px black;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.5;
+        p{
+            opacity: 1;
+            color: black;
+        }
+    }
+}
+
+.loop__section3-gridDiv5{
+    width: 256px;
+    height: 450px;
+    background-image: url('../../images/desktop/image-from-above.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $Black;  
+    display: flex;
+    align-items: flex-end;
+    box-shadow: inset 0px -50px 100px black;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.5;
+        p{
+            opacity: 1;
+            color: black;
+        }
+    }
+}
+
+.loop__section3-gridDiv6{
+    width: 256px;
+    height: 450px;
+    background-image: url('../../images/desktop/image-pocket-borealis.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $Black;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: inset 0px -50px 100px black;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.5;
+        p{
+            opacity: 1;
+            color: black;
+        }
+    }
+}
+
+.loop__section3-gridDiv7{
+    background-image: url('../../images/desktop/image-curiosity.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $Black;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: inset 0px -50px 100px black;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.5;
+        p{
+            opacity: 1;
+            color: black;
+        }
+    }
+}
+
+.loop__section3-gridDiv8{
+    width: 256px;
+    height: 450px;
+    background-image: url('../../images/desktop/image-fisheye.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $Black;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: inset 0px -50px 100px black;
+    cursor: pointer;
+    &:hover{
+        p{
+            opacity: 1;
+            color: black;
+        }
+    }
+}
+
+.loop__section3-textDivs{
+    color: $White;
+    padding: 0px 0px 10px 10px;
+    font-size: 30px;
+    
+}
+
+// SECTION FOOTER
+
+.loop__footer{
+    max-width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: $Black;
+    padding: 40px 100px 40px 100px;
+    a{
+        margin-top: 20px;
+        margin-right: 50px;
+    }
+}
+
+.loop__footerRight{
+
+}
+
+.loop__footerIcons{
+    display: flex;
+    justify-content: end;
+    img{
+        cursor: pointer;
+        margin-left: 15px;
+        &:hover{
+            border-bottom: solid 1px $White;
+            border-bottom-width: 1em;
+        }
+    }
+}
+
+.loop__footerText{
+    padding-top: 20px;
+    color: $VeryDarkGray;
+}
+
+@media only screen and (max-width: 768px){
+
+    .loop__subheader{
+        display: none;
+    }
+
+    .loop__logoLink{
+        display:block;
+    }
+
+    .loop__headerActive{
+        position: fixed;
+        z-index: 998;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        background-color: black;
+        flex-direction: column;
+        .loop__subHeader{
+            margin-bottom: 200px;
+        }
+    }
+
+    .loop__subheaderActive{
+        display: flex;
+        flex-direction: column;
+        color: $White;
+        font-size: 30px;
+        a{
+            padding: 0 0 20px 40px;
+            cursor: pointer;
+            &:hover{
+                color: violet;
+            }
+        }
+
+    }
+
+    .loop__subHeader{
+        width: inherit;
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 40px 0 40px;
+    }
+
+}
