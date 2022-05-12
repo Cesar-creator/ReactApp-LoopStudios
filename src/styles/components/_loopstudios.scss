@@ -1,10 +1,10 @@
 .loop__section1{
     height: 100vh;
-    padding-top: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
+    max-width: 100%;
+    padding: 100px 100px 100px;
     background-image: url('../../images/desktop/image-hero.jpg');
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .loop__header{
@@ -16,13 +16,15 @@
 .loop__subheader{
     display: flex;
     width: 40%;
+    height: auto;
     justify-content: space-between;
     a{
+        font-size: 20px;
         color: $White;
         cursor: pointer;
         &:hover{
-            border-bottom: solid 1px white;
-            border-bottom-width: 1em;
+            border-bottom: solid 2px rgb(255, 239, 239);
+
         }
     }
 }
@@ -51,6 +53,7 @@
 .loop__section2{
     margin-left: 100px;
     margin-right: 100px;
+    position: relative;
 }
 
 .loop__section2-content{
@@ -59,8 +62,8 @@
     padding: 80px;
     z-index: 5;
     position: absolute;
-    top: 950px;
-    left: 670px;
+    top: 200px;
+    left: 550px;
     background-color: $White;
 
     h2{
@@ -123,10 +126,9 @@
     box-shadow: inset 0px -50px 100px black;
     cursor: pointer;
     &:hover{
-        opacity: 0.5;
+        opacity: 0.9;
         p{
-            opacity: 1;
-            color: yellow;
+            color: red;
         }
     }
 }
@@ -144,10 +146,9 @@
     box-shadow: inset 0px -50px 100px black;   
     cursor: pointer;
     &:hover{
-        opacity: 0.5;
+        opacity: 0.9;
         p{
-            opacity: 1;
-            color: black;
+            color: red;
         }
     }
 }
@@ -165,10 +166,9 @@
     box-shadow: inset 0px -50px 100px black;
     cursor: pointer;
     &:hover{
-        opacity: 0.5;
+        opacity: 0.9;
         p{
-            opacity: 1;
-            color: black;
+            color: red;
         }
     } 
 }
@@ -186,10 +186,9 @@
     box-shadow: inset 0px -50px 100px black;
     cursor: pointer;
     &:hover{
-        opacity: 0.5;
+        opacity: 0.9;
         p{
-            opacity: 1;
-            color: black;
+            color: red;
         }
     }
 }
@@ -207,10 +206,9 @@
     box-shadow: inset 0px -50px 100px black;
     cursor: pointer;
     &:hover{
-        opacity: 0.5;
+        opacity: 0.9;
         p{
-            opacity: 1;
-            color: black;
+            color: red;
         }
     }
 }
@@ -228,10 +226,9 @@
     box-shadow: inset 0px -50px 100px black;
     cursor: pointer;
     &:hover{
-        opacity: 0.5;
+        opacity: 0.9;
         p{
-            opacity: 1;
-            color: black;
+            color: red;
         }
     }
 }
@@ -247,10 +244,9 @@
     box-shadow: inset 0px -50px 100px black;
     cursor: pointer;
     &:hover{
-        opacity: 0.5;
+        opacity: 0.9;
         p{
-            opacity: 1;
-            color: black;
+            color: red;
         }
     }
 }
@@ -268,9 +264,9 @@
     box-shadow: inset 0px -50px 100px black;
     cursor: pointer;
     &:hover{
+        opacity: 0.9;
         p{
-            opacity: 1;
-            color: black;
+            color: red;
         }
     }
 }
@@ -303,13 +299,14 @@
 
 .loop__footerIcons{
     display: flex;
-    justify-content: end;
+    height: 40px;
+
     img{
         cursor: pointer;
         margin-left: 15px;
+        padding-bottom: 15px;
         &:hover{
             border-bottom: solid 1px $White;
-            border-bottom-width: 1em;
         }
     }
 }
@@ -364,6 +361,18 @@
         display: flex;
         justify-content: space-between;
         padding: 40px 40px 0 40px;
+    }
+    .loop__section2-content{
+        position: static;
+    }
+    .loop__section2{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .loop__section3-gridContainer{
+        grid-template-columns: auto ;
+        
+        
     }
 
 }

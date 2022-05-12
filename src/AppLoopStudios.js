@@ -82,7 +82,7 @@ export const AppLoopStudios = () => {
 
         <div className="loop__section3-gridContainer">
           <div className="loop__section3-gridDiv1"><p className="loop__section3-textDivs">DEEP <br/> EARTH</p></div>
-          <div className="loop__section3-gridDiv2"><p className="loop__section3-textDivs">NIGHT <br/> ARCADE</p></div>
+          <div className="loop__section3-gridDiv2"><div><p className="loop__section3-textDivs">NIGHT <br/> ARCADE</p></div></div>
           <div className="loop__section3-gridDiv3"><p className="loop__section3-textDivs">SOCCER <br/> TEAM VR</p></div>
           <div className="loop__section3-gridDiv4"><p className="loop__section3-textDivs">THE <br/> GRID</p></div>
           <div className="loop__section3-gridDiv5"><p className="loop__section3-textDivs">FROM UP <br/> ABOVE VR</p></div>
