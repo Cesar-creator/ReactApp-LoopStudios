@@ -1,10 +1,9 @@
 .loop__section1{
     height: 100vh;
     max-width: 100%;
-    padding: 100px 100px 100px;
+    padding: 100px 100px 20px 100px;
     background-image: url('../../images/desktop/image-hero.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .loop__header{
@@ -40,6 +39,7 @@
     margin-top: 100px;
     border: solid 1px $White;
     padding: 40px;
+    word-wrap: break-word;
 }
 
 .loop_section1-contentText{
@@ -234,6 +234,8 @@
 }
 
 .loop__section3-gridDiv7{
+    width: 256px;
+    height: 450px;
     background-image: url('../../images/desktop/image-curiosity.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -366,13 +368,37 @@
         position: static;
     }
     .loop__section2{
-        margin-left: 20px;
-        margin-right: 20px;
+        margin: 50px 20px 0 20px;
+        img{
+            width: 100%;
+            height: auto;
+        }
     }
     .loop__section3-gridContainer{
-        grid-template-columns: auto ;
+        grid-template-columns: auto auto ;
         
         
     }
+    .loop_section1-content{
+        width: auto;
+    }
+    .loop__section1{
+        height: auto;
+        background-size: cover;
+    }
+    .loop__footer{
+        display: grid;
+        justify-content: center;
+    }
+    .loop__footerIcons{
+        margin-top: 10px;
+    }
+    
 
+}
+@media only screen and (max-width: 690px){
+    .loop__section3-gridContainer{
+        grid-template-columns: auto;
+        justify-content: center;
+    }
 }
